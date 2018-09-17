@@ -1,24 +1,22 @@
-// sort numbers 2
-// 왜 시간초과 나는지 모르겠음
+// sort 2
 
-#include <iostream>
+#include <cstdio>
 #include <algorithm>
 using namespace std;
-
 int main(int argc, char* argv[]) {
+		
+	unsigned int n;
+	scanf("%d", &n);
+	int arr[1000000];
 
-	unsigned int cases;
-	//int slot[1000010];
-	
-	cin >> cases;
-	int* slot = new int[cases];
-
-	for (size_t i = 0; i < cases; i++) {
-		cin >> slot[i];
+	for (size_t i = 0; i < n; i++) {
+		scanf("%d", &arr[i]);
 	}
-	sort(slot, slot + cases);
-	for (size_t i = 0; i < cases; i++) {
-		cout << slot[i] << endl;
+
+	sort(arr, arr+n);
+	
+	for (size_t i = 0; i < n; i++) {
+		printf("%d\n", arr[i]);
 	}
 
 	return 0;
