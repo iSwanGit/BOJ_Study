@@ -6,3 +6,6 @@
 ## Practice
 - Incorrect: 1406(time)
 - Not solved: 2089(-2진수 죽어도이해안감) 2004
+
+## BFS/DFS
+- Incorrect: 1707 (memory, 일단 보류)
